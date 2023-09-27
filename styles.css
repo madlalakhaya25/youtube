@@ -1,0 +1,220 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Background color for the entire page */
+}
+
+/* Header styles */
+header {
+    background-color: #ff0000; /* YouTube's red color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styles */
+#logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#logo img {
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+/* User Icon styles */
+#user-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#user-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* Header styles (adjust padding, colors, and other styles as needed) */
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Bar styles */
+#search-bar {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+
+#search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+
+#search-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#search-bar input[type="text"]:focus {
+    background-color: #f1f1f1;
+}
+
+/* User Menu styles */
+#user-menu {
+    display: flex;
+    align-items: center;
+}
+
+#user-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Main Content styles */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* Video Player styles */
+#video-player {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#video-player iframe {
+    width: 100%;
+    height: 480px; /* Increased height for better viewing */
+}
+
+#video-player h1 {
+    font-size: 28px; /* Larger title */
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#video-player p {
+    color: #777;
+    font-size: 18px;
+    line-height: 1.5; /* Improved readability with increased line height */
+}
+
+/* Video Recommendations styles */
+#video-recommendations {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#video-recommendations h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#video-recommendations ul {
+    list-style: none;
+    padding: 0;
+}
+
+#video-recommendations li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#video-recommendations img {
+    width: 180px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+
+/* Publisher Container styles */
+#publisher-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.byline-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.publisher {
+    font-size: 16px;
+    color: #777;
+}
+
+.index-message-wrapper {
+    margin-top: 10px;
+}
+
+.index-message {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 15px;
+    color: #fff;
+    font-size: 16px;
+}

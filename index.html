@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="logo">
+            <img src="./assets/youtube.png" alt="">
+        </div>
+        <div id="search-bar">
+            <input type="text" placeholder="Search">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="user-menu">
+            <div id="user-icon">
+                <img src="./assets/IMG_20211230_114848_286.jpg" alt="">
+            </div>
+            <div id="user-name">Khaya Madlala</div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Video Player -->
+        <div id="video-player">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/UKz6h7a4le4" title="Melanie Faye Guitar Solo on Tiny Desk w/Masego" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1>Masego: NPR Music Tiny Desk Concert</h1>
+            <p>18,715,020 views  Jul 24, 2019</p>
+                <p> Watch Masego play "Tadow", "Nayhoo", "Queen Tings", "Black Love" and "I Do Everything" at the Tiny Desk.</p>
+                <p>More from NPR Music: 
+                    <p> Tiny Desk Concerts: https://www.npr.org/tinydesk</p>
+                    <p> Twitter: https://twitter.com/nprmusic</p>
+                    <p>  Instagram: https://www.instagram.com/nprmusic</p>
+                <p> See Ari Lennox on Tour: http://www.arilennox.com/tour</p>
+        </div>
+
+        <!-- Video Recommendations -->
+        <div id="video-recommendations">
+            <h2>Recommended Music</h2>
+            <ul>
+                <li>
+                    <!-- Embed a YouTube video for the recommended music -->
+                    <div class="video-container">
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/Qll7IHN0I4Q" title="Snoh Aalegra: NPR Music Tiny Desk Concert" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Snoh Aalegra: NPR Tiny Desk Concert</h3>
+                        <p>NPR Music</p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Embed another YouTube video for recommended music -->
+                    <div class="video-container">
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/hp0KiJs0S5g" title="When I&#39;m in Your Arms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>When I'm in Your Arms</h3>
+                        <p>Cleo Sol</p>
+                    </div>
+                </li>
+                <!-- Add more recommended music videos here -->
+            </ul>
+        </div>
+    
+        <!-- Publisher Container -->
+        <div id="publisher-container" class="style-scope ytd-playlist-panel-renderer">
+            <yt-formatted-string class="byline-title style-scope ytd-playlist-panel-renderer" ellipsis-truncate="" hidden="" ellipsis-truncate-styling="" title="Mix - H.E.R. - Wrong Places (from Songland) (Audio)">Mix - H.E.R. - Wrong Places (from Songland) (Audio)</yt-formatted-string>
+            <ytd-badge-supported-renderer class="style-scope ytd-playlist-panel-renderer" disable-upgrade="" hidden=""></ytd-badge-supported-renderer>
+            <yt-formatted-string class="publisher style-scope ytd-playlist-panel-renderer" ellipsis-truncate="" link-inherit-color="" ellipsis-truncate-styling="" title="Mixes are playlists Youtube makes for you">Mixes are playlists Youtube makes for you</yt-formatted-string>
+            <div class="index-message-wrapper style-scope ytd-playlist-panel-renderer" hidden="">
+                <span class="index-message style-scope ytd-playlist-panel-renderer">1 / NaN</span>
+                <yt-formatted-string class="index-message style-scope ytd-playlist-panel-renderer" respecthtmldir="" hidden="" is-empty="">
+                    <!--css-build:shady-->
+                    <!--css-build:shady-->
+                    <yt-attributed-string class="style-scope yt-formatted-string"></yt-attributed-string>
+                </yt-formatted-string>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li>About</li>
+            <li>Press</li>
+            <li>Copyright</li>
+            <li>Contact us</li>
+            <li>Creators</li>
+            <li>Advertise</li>
+            <li>Developers</li>
+        </ul>
+    </footer>
+</body>
+</html>
