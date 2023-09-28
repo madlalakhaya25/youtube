@@ -218,3 +218,77 @@ footer li {
     color: #fff;
     font-size: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    /* Header styles for mobile */
+    header {
+        padding: 5px 10px;
+    }
+
+    #logo img {
+        width: 80px;
+        height: 64px;
+        margin-right: 5px;
+    }
+
+    #user-icon img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Search Bar styles for mobile */
+    #search-bar {
+        padding: 5px;
+    }
+
+    #search-bar input[type="text"] {
+        font-size: 14px;
+    }
+
+    #search-button {
+        padding: 5px 10px;
+    }
+
+    /* Video Player styles for mobile */
+    #video-player iframe {
+        height: 300px;
+    }
+
+    #video-player h1 {
+        font-size: 24px;
+    }
+
+    #video-player p {
+        font-size: 16px;
+    }
+
+    /* Video Recommendations styles for mobile */
+    #video-recommendations h2 {
+        font-size: 20px;
+    }
+
+    #video-recommendations li {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: center; /* Center align items on mobile */
+    }
+
+    #video-recommendations img {
+        width: 120px;
+        height: 80px;
+        margin-right: 0;
+        margin-bottom: 10px; /* Add spacing between items on mobile */
+    }
+
+    /* Publisher Container styles for mobile */
+    .byline-title {
+        font-size: 16px;
+    }
+
+    .publisher {
+        font-size: 14px;
+    }
+
+    .index-message {
+        font-size: 16px;
+    }
+}
